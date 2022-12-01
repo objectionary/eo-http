@@ -1,0 +1,9 @@
++package org.eolang.http
++alias org.eolang.txt.sprintf
+
+[body] > http-request
+  "GET" > method
+  sprintf > to-string
+    "HTTP/1.1 %s %s"
+    method
+    body

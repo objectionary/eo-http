@@ -1,0 +1,10 @@
++package org.eolang.http
+
++alias org.eolang.hamcrest.assert-that
++alias org.eolang.http.http-request
++junit
+
+[] > converts-to-string
+  assert-that > @
+    (http-request "body").to-string
+    $.equal-to "HTTP/1.1 GET body"
