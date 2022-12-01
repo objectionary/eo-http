@@ -25,5 +25,6 @@
  * EO-http.
  *
  * @since 0.1.0
+ * @checkstyle PackageNameCheck (5 lines)
  */
 package EOorg.EOeolang.EOhttp;
