@@ -1,8 +1,7 @@
-+package org.eolang.http
-
 +alias org.eolang.hamcrest.assert-that
 +alias org.eolang.http.http-request
-+junit
++tests
++package org.eolang.http
 
 [] > converts-to-string
   assert-that > @

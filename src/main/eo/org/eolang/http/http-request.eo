@@ -1,5 +1,5 @@
-+package org.eolang.http
 +alias org.eolang.txt.sprintf
++package org.eolang.http
 
 [body] > http-request
   "GET" > method
